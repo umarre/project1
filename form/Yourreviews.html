@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUR REVIEWS</title>
+</head>
+<body> 
+    <br>
+    <br>
+    <center><table border="2"><th>Step 1:Account</th><th>Step 2: Personal Details</th><th>Step 3:Your Reviews</th> </table></center>
+    <fieldset>
+        <legend>Your Reviews</legend>
+        <p>How did you hear about us?
+        <select name="about us">
+        <option value="Facebook">Facebook</option>
+        <option value="Friend">Friend</option>
+        <option value="Advert">Advert</option>
+        <option value="Other">Other</option>
+        </select></p>
+        <br>
+        <label>Would you visit again?
+        <input type="radio" name="rating" value="Yes" checked>Yes
+        <input type="radio" name="rating" value="No" >No 
+        <input type="radio" name="rating" value="Maybe">Maybe
+        </label><br>
+        <br>
+        <label for="Comments">Comments:</label><br>
+        <textarea name="Comments" id="Comments" cols="45" rows="10" placeholder="Enter your comments here...."></textarea><br>
+        <label for="Documents">Documents:</label><br>
+        <input type="file"><br>
+        <p> <input type="checkbox" name="subscribe"> Sign up for email updates</p>
+        <form action="personaldetails.html">
+        <button><img src="back.png" alt="Back" width="140" height="50"></button> </form>
+        <form action="formindex.html">
+        <input type="submit" value="submit" hidden><button><img src="submit.png" alt="submit" width="140" height="50"></button></form>
+       
+    </fieldset>
+</body>
+</html>
